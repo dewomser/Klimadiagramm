@@ -2,7 +2,11 @@
 [![Trigger: Push action](https://github.com/dewomser/Klimadiagramm/actions/workflows/main.yml/badge.svg)](https://github.com/dewomser/Klimadiagramm/actions/workflows/main.yml)
 
 Aus Daten vom DWD eine Klimagrafik für Deutsche Städte erstellen am Beispiel Worms.
-Lokale Wettervorhersage mit Opendata DWD /Mosmix in  Bash
+Lokale Klimaentwicklung gemacht mit:
++Opendata vom DWD Observation
++Bash
++Wetterdiendt
++GNUplot
 
 ![alt text](./images/klima2.png "Screenshot Klimadiagramm für die Stadt Worms")
 
