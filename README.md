@@ -4,7 +4,7 @@
 Aus Daten vom DWD eine Klimagrafik für Deutsche Städte erstellen am Beispiel Worms.
 Lokale Wettervorhersage mit Opendata DWD /Mosmix in  Bash
 
-![alt text](./image/klima1.png "Screenshot Klimadiagramm für die Stadt Worms")
+![alt text](./images/klima2.png "Screenshot Klimadiagramm für die Stadt Worms")
 
 
 ## Vorraussetzung:
