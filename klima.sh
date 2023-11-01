@@ -7,11 +7,11 @@ paste -d ',' temp_klima.csv regen_klima.csv > klima.csv
 
 sleep 2
 
-gnuplot klima2.gp
+gnuplot klima3.gp
 
 sleep 2
 
-gwenview klima2.png
+gwenview klima3.png
 
 
 
