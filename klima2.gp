@@ -17,4 +17,4 @@ set y2label "Jährlicher Niederschlag in mm" # label for second axis
 set terminal pngcairo size 800,600 enhanced font 'Verdana,10'
 set output 'klima2.png'
 
-plot 'klima.csv' using 4:($5-273.15) title 'Temperatur °C' with lines lc "red",'klima.csv' using 4:($5-273.15) smooth bezier title 'Temperatur bezier °C' with lines lw 20 lc "red",'' using 4:11 with lines axis x1y2 title 'Niederschlag  mm/Y' ,'' using 4:11 with lines smooth bezier lw 20 lc "blue" axis x1y2 title 'Niederschlag bezier  mm/Y'
+plot 'klima.csv' using 5:6 title 'Temperatur °C' with lines lc "red",'klima.csv' using 5:6 smooth bezier title 'Temperatur bezier °C' with lines lw 20 lc "red",'' using 5:13 with lines axis x1y2 title 'Niederschlag  mm/Y' ,'' using 5:13 with lines smooth bezier lw 20 lc "blue" axis x1y2 title 'Niederschlag bezier  mm/Y'
