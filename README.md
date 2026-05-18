@@ -8,7 +8,11 @@ Lokale Klimaentwicklung gemacht mit:
 +Wetterdiendt
 +GNUplot
 
+<<<<<<< HEAD
 ![alt text](./klima2.png "Screenshot Klimadiagramm für die Stadt Worms")
+=======
+![alt text](./images/klima2.png "Screenshot Klimadiagramm für die Stadt Worms")
+>>>>>>> d8c3f17 (Neuer Output erstellt 2026)
 
 
 ## Vorraussetzung:
